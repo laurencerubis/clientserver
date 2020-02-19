@@ -14,3 +14,7 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route:: get('/sampledata/{count}', function(){
+    echo "You will generate " $count, "entries.,";
+}),
